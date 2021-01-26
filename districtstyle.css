@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.style{
+    background-color: rgb(8, 8, 117);
+    height: 100px;
+   
+    
+}
+.color{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.content{
+    margin-right: 100px;
+}
+
+.containers1{
+    text-align: center;
+}
+
+
+.dist1{
+    width: 230px;
+    height: 230px;
+    margin-top: 2%;
+    margin-left: 4.25%;
+    background-size: cover;
+    float: left;
+}
+
+.desc1{
+    background-image: url(images/kasargod.jpg);
+}
+
+.desc2{
+    background-image: url(images/kannur.jpg);
+}
+
+.desc3{
+    background-image: url(images/wayanad.jpg);
+}
+
+.desc4{
+    background-image: url(images/kozhikode.jpg);
+}
+
+.desc5{
+    background-image: url(images/malappuram.jpg);
+}
+
+.containers3{
+    text-align: center;
+
+    margin-right: 3%;
+    float: right;
+}
+.dist3{
+    width: 230px;
+    height: 230px;
+    margin-top: 10%;
+    background-size: cover;
+}
+.desc8{
+    background-image: url(images/palakkad.jpg);
+}
+.desc9{
+    background-image: url(images/idukki.jpg);
+}
+
+#map{
+    float: right;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+
+.containers2{
+    text-align: center;
+    margin-top: 280px;
+    margin-left: 65px;
+}
+
+
+.dist2{
+    width: 230px;
+    height: 230px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.desc6{
+    background-image: url(images/thrissur.jpg);
+}
+.desc7{
+    background-image: url(images/ernakulam.jpg);
+}
+
+.containers4{
+    text-align: center;
+}
+
+
+.dist4{
+    width: 230px;
+    height: 230px;
+    margin-top: 2%;
+    margin-left: 4.25%;
+    padding-bottom: 20px;
+    background-size: cover;
+    float: left;
+}
+
+.desc10{
+    background-image: url(images/kottayam.jpg);
+}
+
+.desc11{
+    background-image: url(images/alappuzha.jpg);
+}
+
+.desc12{
+    background-image: url(images/pathanamthitta.jpg);
+}
+
+.desc13{
+    background-image: url(images/kollam.jpg);
+}
+
+.desc14{
+    background-image: url(images/thiruvananthapuram.jpeg);
+}
+/* .cards:hover{
+    transform: translateY(-10px);
+} */
+section{
+    width: 100%;
+    height: 146vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #77A1D3, #79CBCA, #E684AE );
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+    padding-top: 1%;
+}
+
+
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    
+    <link rel="stylesheet" href="signupstyle.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">  
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark style">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img src="images/kerala-tourism-title.png" alt="">
+              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto content">
+                <li class="nav-item color">
+                <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item color">
+                <a class="nav-link" href="login.html">LOGIN</a>
+                </li>
+                  <li class="nav-item color active">
+                    <a class="nav-link" href="signup.html">SIGNUP</a>
+                  </li>
+                  <li class="nav-item color">
+                    <a class="nav-link" href="district.html">DISTRICTS</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+<section>
+<div class="containers">
+	<!-- <div class="header">
+		
+    </div> -->
+    <h2 style="margin-bottom: -10%;">Sign Up</h2>
+    <br>
+    <form id="form" class="form">
+		<div class="form-controls">
+			<label for="username">Username</label>
+			<input type="text" placeholder="Enter your name" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+      <small>Error message</small>
+      <br>
+        </div>
+        <div class="form-controls">
+			<label for="number">Phone number</label>
+			<input type="tel" placeholder="Enter 10 digit phone number" id="number" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+    </div>
+    <br>
+		<div class="form-controls">
+			<label for="email">Email</label>
+			<input type="email" placeholder="Enter mail id" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+    </div>
+    <br>
+		<div class="form-controls find">
+			<label for="password">Password</label>
+			<input onkeyup="trigger()" type="password" placeholder="Password" id="password" style="font-size:15px"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+            <small>Error message</small>
+            <div class="indicator" style="text-align: center;">
+                <span class="weak"></span>
+                <span class="medium"></span>
+                <span class="strong"></span>
+            </div>
+            <div class="text" style="text-align: center;"></div>
+    </div>
+    <br>
+		<div class="form-controls">
+			<label for="password2">Password check</label>
+			<input type="password" placeholder="Confirm password" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+    </div>
+    <br>
+    <!-- <div class=" form-controls mb-3 form-check ">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1" style="color: black;">Check me out</label>
+    </div> -->
+    <button>Submit</button>
+    <!-- <input type="submit" onclick="return validate()"> -->
+	</form>
+</div>
+</section>
+<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+<script src="signup.js"></script>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.style{
+    background-color: rgb(8, 8, 117);
+    height: 100px;
+   
+    
+}
+.color{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.content{
+    margin-right: 100px;
+}
+
+
+.rows{
+    display: flex;
+    margin-top:4%;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+
+.col img{
+    height: 250px;
+    width: 250px;
+    margin-left: 65%;
+    margin-top: -40%;
+    
+}
+
+.col h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+.col p{
+    margin-top: -20px;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col button{
+    width: 200px;
+    font-size: 15px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+
+}
+
+h5{
+    color: black;
+}
+.cards{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+
+.card1{
+    background-image: url(images/Illikkal_Kallu.jpg);
+}
+
+.card2{
+    background-image: url(images/kumarakombirdsanctuary.jpg);
+}
+
+.card3{
+    background-image: url(images/nattakomandpanachikad.jpg);
+}
+
+.card4{
+    background-image: url(images/thangalhill.jpg);
+}
+
+.card5{
+    background-image: url(images/Saint_Alphonsa_Tomb.jpg);
+}
+.card6{
+    background-image: url(images/poonjarpalace.jpg);
+}
+
+.cards:hover{
+    transform: translateY(-10px);
+}
+section{
+    width: 100%;
+    height: 86.5vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #77A1D3, #79CBCA, #E684AE );
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+    padding-top: 1%;
+}
+
+
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
